@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\usuario\downloads\lenguaje c\ejer 4\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1666881522 source:c:\users\usuario\downloads\lenguaje c\tp8\ejer 4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TDApila.h"
+
+1666881515 c:\users\usuario\downloads\lenguaje c\tp8\ejer 4\tdapila.h
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1666129892 source:c:\users\facun\downloads\lenguaje c\tp8\ejer 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TDAfraccion.h"
+
+1666130012 c:\users\facun\downloads\lenguaje c\tp8\ejer 2\tdafraccion.h
+

@@ -1,0 +1,30 @@
+Acelerometro- Fisica- Se Denomina acelerometro a cualquier instrumento destinado a medir aceleraciones
+Calibre- Fisica- Instrumento de medición de diámetros exteriores, interiores y profundidades utilizado en el ámbito industrial
+Dinamometro- Fisica- Es un instrumento utilizado para medir fuerzas o para calcular el peso de los objetos
+Electroscopio- Electricidad- Es un instrumento que se utiliza para leer si un cuerpo está cargado eléctricamente
+Espectrometro de masa- Quimica- Dispositivo que permite analizar con gran precisión la composición de diferentes elementos químicos e isótopos atómicos
+Gravimetro- Fisica- Tipo de acelerómetro especializado en medir la constante aceleración descendente de la gravedad
+Calorimetro- Termologia- Instrumento que sirve para medir las cantidades de calor suministradas o recibidas por los cuerpos
+Magnetometro- Magnetismo- Dispositivos que sirven para cuantificar en fuerza o dirección la señal magnética de una muestra
+Palmer- Fisica- Es un instrumento de medición cuyo nombre deriva etimológicamente de las palabras griegas
+Volimetro- Electricidad- Es un instrumento que sirve para medir la diferencia de potencial entre dos puntos de un circuito eléctrico
+Microscopio electrónico de transmisión- Biología- Instrumento que utiliza haces de electrones para visualizar estructuras celulares a nivel submicroscópico.
+Espectrómetro de masas- Química- Identifica y cuantifica compuestos químicos y biomoléculas a partir de su masa y carga.
+Cromatógrafo de gases- Química- Separación y análisis de compuestos químicos volátiles en una muestra.
+Microscopio de fuerza atómica- Física- Permite la visualización y manipulación de objetos a nivel atómico y molecular.
+Centrífuga- Biología- Se utiliza para separar componentes de una muestra, como células y proteínas, mediante la fuerza centrífuga.
+Espectroscopio de resonancia magnética nuclear- Química- Analiza la estructura de moléculas y biomoléculas mediante la interacción con campos magnéticos.
+Microscopio de fluorescencia- Biología- Emite y detecta la luz fluorescente para visualizar biomoléculas y células marcadas con fluorocromos.
+Microscopio de luz polarizada- Física- Permite el estudio de la estructura y composición de materiales, como fibras y tejidos biológicos.
+Luminómetro- Biología- Mide la cantidad de luz emitida por reacciones bioluminiscentes o quimioluminiscentes.
+Amplificador de baja frecuencia- Física- Amplifica señales eléctricas débiles en experimentos de registro biológico, como electroencefalografía (EEG).
+Cámara de cultivo celular- Biología- Proporciona un ambiente controlado para el crecimiento y estudio de células en cultivo.
+Espectrofotómetro- Química- Mide la absorción de luz por soluciones, lo que permite cuantificar concentraciones de sustancias.
+Termociclador- Biología- Realiza ciclos de temperatura precisos para la amplificación de ADN mediante la reacción en cadena de la polimerasa (PCR).
+Electrodo de pH- Química- Mide la acidez o alcalinidad de soluciones en experimentos biológicos y químicos.
+Cámara de anestesia- Biología- Se utiliza en la investigación animal para mantener a los sujetos de estudio bajo anestesia durante procedimientos.
+Radiómetro- Física- Mide la intensidad de la radiación electromagnética, como la luz, en experimentos de fotobiología.
+Dinamómetro- Física- Mide la fuerza y la presión en experimentos biomecánicos y de física.
+Microscopio confocal- Biología- Ofrece imágenes en secciones ópticas finas para el estudio tridimensional de muestras biológicas.
+Amperímetro- Física- Mide la corriente eléctrica en circuitos biológicos y experimentos relacionados con la electricidad.
+Pipeta de precisión- Química- Instrumento de laboratorio para medir y transferir volúmenes precisos de líquidos en experimentos biológicos y químicos.

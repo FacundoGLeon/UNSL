@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1666269576 source:c:\users\usuario\downloads\lenguaje c\tp8\ejer 5.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TDAfila.h"
+
+1666269603 c:\users\usuario\downloads\lenguaje c\tp8\ejer 5.0\tdafila.h
+

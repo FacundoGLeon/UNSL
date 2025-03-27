@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1668431962 source:c:\users\usuario\downloads\lenguaje c\trabajo de maquina\maquina\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<strings.h>
+	"equipos.h"
+	"lista.h"
+
+1668010308 c:\users\usuario\downloads\lenguaje c\trabajo de maquina\maquina\equipos.h
+
+1668182224 c:\users\usuario\downloads\lenguaje c\trabajo de maquina\maquina\lista.h
+
+1668983336 source:c:\users\facun\downloads\lenguaje c\trabajo de maquina\maquina\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<strings.h>
+	"equipos.h"
+	"lista.h"
+
+1668010308 c:\users\facun\downloads\lenguaje c\trabajo de maquina\maquina\equipos.h
+
+1668182224 c:\users\facun\downloads\lenguaje c\trabajo de maquina\maquina\lista.h
+

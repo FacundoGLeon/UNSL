@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1666811477 source:c:\users\facun\downloads\lenguaje c\tp7\ejer 2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1666893492 source:c:\users\usuario\downloads\lenguaje c\tp7\ejer 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+

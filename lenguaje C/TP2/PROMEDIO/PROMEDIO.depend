@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1661266768 source:c:\users\usuario\desktop\promedio\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1661385551 source:c:\users\usuario\downloads\lenguaje c\tp2\promedio\main.c
+	<stdio.h>
+	<stdlib.h>
+

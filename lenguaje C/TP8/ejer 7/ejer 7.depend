@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1666798138 source:c:\users\facun\downloads\lenguaje c\tp8\ejer 7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"TDAlistaauto.h"
+
+1666796673 c:\users\facun\downloads\lenguaje c\tp8\ejer 7\tdalistaauto.h
+
+1666869489 source:c:\users\usuario\downloads\lenguaje c\tp8\ejer 7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"TDAlistaauto.h"
+
+1666796674 c:\users\usuario\downloads\lenguaje c\tp8\ejer 7\tdalistaauto.h
+

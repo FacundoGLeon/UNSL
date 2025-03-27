@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1665501082 source:c:\users\usuario\downloads\lenguaje c\lib\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TDAauto.h"
+
+1665501082 c:\users\usuario\downloads\lenguaje c\lib\tdaauto.h
+
+1665501084 source:c:\users\facun\downloads\lenguaje c\lib\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TDAauto.h"
+
+1665599000 c:\users\facun\downloads\lenguaje c\lib\tdaauto.h
+
+1665697295 source:c:\users\facun\downloads\lenguaje c\tp8\ejer 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"TDAauto.h"
+
+1665697123 c:\users\facun\downloads\lenguaje c\tp8\ejer 1\tdaauto.h
+	<strings.h>
+
+1666100314 source:c:\users\usuario\downloads\lenguaje c\tp8\ejer 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"TDAauto.h"
+
+1666100314 c:\users\usuario\downloads\lenguaje c\tp8\ejer 1\tdaauto.h
+	<strings.h>
+

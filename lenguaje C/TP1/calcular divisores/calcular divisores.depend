@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1661007618 source:c:\users\usuario\downloads\lenguaje c\calcular divisores\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1661821779 source:c:\users\usuario\downloads\lenguaje c\tp1\calcular divisores\main.c
+	<stdio.h>
+	<stdlib.h>
+

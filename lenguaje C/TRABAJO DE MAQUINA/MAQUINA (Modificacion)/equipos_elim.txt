@@ -1,0 +1,34 @@
+Pais: ARABIA SAUDITA
+Director Tecnico: WWQQW QWQWQW
+Capitan: WQWQQW
+Grupo: D
+Puntaje Actual: 0
+Fase: PRIMERA FASE
+Partidos Jugados: 0 
+Partidos Ganados: 0 
+Partidos Empatados: 0 
+DATOS DE LA FASE ANTERIOR
+GOLEADOR
+Apellido:  
+Goles: 0
+Goles a Favor : 0
+Goles en Contra: 0
+Puntaje Parcial: 0
+
+Pais: INGLATERRA
+Director Tecnico: SOUTHGATE GARETH
+Capitan: KANE
+Grupo: B
+Puntaje Actual: 0
+Fase: OCTAVOS DE FINAL
+Partidos Jugados: 0 
+Partidos Ganados: 0 
+Partidos Empatados: 0 
+DATOS DE LA FASE ANTERIOR
+GOLEADOR
+Apellido: EDFEF
+Goles: 3
+Goles a Favor : 12
+Goles en Contra: 2
+Puntaje Parcial: 2
+

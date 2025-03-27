@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1666545835 source:c:\users\facun\downloads\lenguaje c\tp8\nico prue\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"TDAejer3.h"
+
+1666545632 c:\users\facun\downloads\lenguaje c\tp8\nico prue\tdaejer3.h
+

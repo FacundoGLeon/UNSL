@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1667918566 source:c:\users\usuario\downloads\lenguaje c\trabajo de maquina\tiempo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

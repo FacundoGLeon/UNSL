@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1663244616 source:c:\users\usuario\downloads\lenguaje c\tp4\ejer 5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

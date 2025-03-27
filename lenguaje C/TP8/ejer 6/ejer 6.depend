@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1666547875 source:c:\users\facun\downloads\lenguaje c\tp8\ejer 6\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TDApilaper.h"
+
+1666547954 c:\users\facun\downloads\lenguaje c\tp8\ejer 6\tdapilaper.h
+
+1666705167 source:c:\users\usuario\downloads\lenguaje c\tp8\ejer 6\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TDApilaper.h"
+
+1666704934 c:\users\usuario\downloads\lenguaje c\tp8\ejer 6\tdapilaper.h
+

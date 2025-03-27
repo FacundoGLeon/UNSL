@@ -1,0 +1,28 @@
+901276- Axel Baigorria- Toxicologo- 8- 6- 2022
+879882- Joaquin Gomez- Quimico- 8- 6- 2022
+900951- Gimena Perez- Tecnico De Laboratorio- 8- 6- 2022
+termina
+234567- David Martinez- Biología marina- 2- 2- 2023
+455632- Daniel Gonzalez- Fisico- 2- 2- 2023
+879882- Joaquin Gomez- Quimico- 1- 1- 2023
+300574- Fabiana Sosa- Ingeniero Bioquimico- 2- 2- 2023
+termina
+441476- Johana Mendez- Fisico- 29- 6- 2023
+455632- Daniel Gonzalez- Fisico- 29- 6- 2023
+termina
+879882- Joaquin Gomez- Quimico- 10- 5- 2021
+457485- Sergio Gimenez- Bioquimico- 24- 8- 2002
+558615- Lucas Castillo- Cientifico- 10- 5- 2021
+termina
+441476- Johana Mendez- Fisico- 18- 7- 2010
+558615- Lucas Castillo- Cientifico- 18- 7- 2010
+termina
+300574- Fabiana Sosa- Ingeniero Bioquimico- 24- 8- 2002
+457485- Sergio Gimenez- Bioquimico- 24- 8- 2002
+termina
+900951- Gimena Perez- Tecnico De Laboratorio- 25- 10- 2000
+558615- Lucas Castillo- Cientifico- 25- 10- 2000
+termina
+173145- Alice Johnson- Física de partículas- 27- 10- 2023
+901234- Emily White- Bioquímica- 27- 10- 2023
+termina

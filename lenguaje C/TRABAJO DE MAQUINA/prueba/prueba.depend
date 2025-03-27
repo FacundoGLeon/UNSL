@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1668289400 source:c:\users\facun\downloads\lenguaje c\trabajo de maquina\prueba\main.c
+	<stdio.h>
+	<stdlib.h>
+

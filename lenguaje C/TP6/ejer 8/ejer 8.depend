@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1666879665 source:c:\users\usuario\downloads\lenguaje c\tp6\ejer 8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+

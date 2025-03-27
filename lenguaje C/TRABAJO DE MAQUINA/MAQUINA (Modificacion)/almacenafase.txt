@@ -1,0 +1,48 @@
+PAIS: BRASIL
+Fase: PRIMERA FASE
+Goles a Favor : 0
+Goles en Contra: 0
+Puntaje Parcial: 0
+
+PAIS: ARGENTINA
+Fase: CUARTOS DE FINAL
+Goles a Favor : 13
+Goles en Contra: 9
+Puntaje Parcial: 3
+
+PAIS: URUGUAY
+Fase: PRIMERA FASE
+Goles a Favor : 0
+Goles en Contra: 0
+Puntaje Parcial: 0
+
+PAIS: ECUADOR
+Fase: PRIMERA FASE
+Goles a Favor : 0
+Goles en Contra: 0
+Puntaje Parcial: 0
+
+PAIS: CANADA
+Fase: PRIMERA FASE
+Goles a Favor : 0
+Goles en Contra: 0
+Puntaje Parcial: 0
+
+PAIS: MEXICO
+Fase: PRIMERA FASE
+Goles a Favor : 0
+Goles en Contra: 0
+Puntaje Parcial: 0
+
+PAIS: ESTADOS UNIDOS
+Fase: PRIMERA FASE
+Goles a Favor : 0
+Goles en Contra: 0
+Puntaje Parcial: 0
+
+PAIS: COSTA RICA
+Fase: PRIMERA FASE
+Goles a Favor : 0
+Goles en Contra: 0
+Puntaje Parcial: 0
+

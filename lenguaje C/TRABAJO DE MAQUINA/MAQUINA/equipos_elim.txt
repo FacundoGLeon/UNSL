@@ -1,0 +1,17 @@
+Pais: ARGENTINA
+Director Tecnico: SCALONI LIONEL
+Capitan: MESSI
+Grupo: C
+Puntaje Actual: 0
+Fase: PRIMERA FASE
+Partidos Jugados: 0 
+Partidos Ganados: 0 
+Partidos Empatados: 0 
+DATOS DE LA FASE ANTERIOR
+GOLEADOR
+Apellido:  
+Goles: 0
+Goles a Favor : 0
+Goles en Contra: 0
+Puntaje Parcial: 0
+

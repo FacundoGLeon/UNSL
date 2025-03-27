@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1732329823 source:c:\users\facun\desktop\cabañas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Reservas.h"
+	"lista.h"
+	<strings.h>
+	"precioCab.h"
+	<stdbool.h>
+
+1732330163 c:\users\facun\desktop\cabañas\reservas.h
+	<time.h>
+	<stdbool.h>
+
+1731783831 c:\users\facun\desktop\cabañas\lista.h
+
+1731797096 c:\users\facun\desktop\cabañas\preciocab.h
+

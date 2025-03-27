@@ -1,0 +1,25 @@
+2- Calibre- Fisica- Instrumento de medición de diámetros exteriores, interiores y profundidades utilizado en el ámbito industrial
+3- Dinamometro- Fisica- Es un instrumento utilizado para medir fuerzas o para calcular el peso de los objetos
+20- Amplificador de baja frecuencia- Física- Amplifica señales eléctricas débiles en experimentos de registro biológico, como electroencefalografía (EEG).
+14- Microscopio de fuerza atómica- Física- Permite la visualización y manipulación de objetos a nivel atómico y molecular.
+termina
+25- Cámara de anestesia- Biología- Se utiliza en la investigación animal para mantener a los sujetos de estudio bajo anestesia durante procedimientos.
+28- Microscopio confocal- Biología- Ofrece imágenes en secciones ópticas finas para el estudio tridimensional de muestras biológicas.
+30- Pipeta de precisión- Química- Instrumento de laboratorio para medir y transferir volúmenes precisos de líquidos en experimentos biológicos y químicos.
+termina
+1- Acelerometro- Fisica- Se Denomina acelerometro a cualquier instrumento destinado a medir aceleraciones
+termina
+28- Microscopio confocal- Biología- Ofrece imágenes en secciones ópticas finas para el estudio tridimensional de muestras biológicas.
+termina
+26- Radiómetro- Física- Mide la intensidad de la radiación electromagnética, como la luz, en experimentos de fotobiología.
+termina
+21- Cámara de cultivo celular- Biología- Proporciona un ambiente controlado para el crecimiento y estudio de células en cultivo.
+23- Termociclador- Biología- Realiza ciclos de temperatura precisos para la amplificación de ADN mediante la reacción en cadena de la polimerasa (PCR).
+30- Pipeta de precisión- Química- Instrumento de laboratorio para medir y transferir volúmenes precisos de líquidos en experimentos biológicos y químicos.
+termina
+3- Dinamometro- Fisica- Es un instrumento utilizado para medir fuerzas o para calcular el peso de los objetos
+9- Palmer- Fisica- Es un instrumento de medición cuyo nombre deriva etimológicamente de las palabras griegas
+termina
+21- Cámara de cultivo celular- Biología- Proporciona un ambiente controlado para el crecimiento y estudio de células en cultivo.
+23- Termociclador- Biología- Realiza ciclos de temperatura precisos para la amplificación de ADN mediante la reacción en cadena de la polimerasa (PCR).
+termina

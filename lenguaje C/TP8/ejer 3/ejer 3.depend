@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1666055839 source:c:\users\facun\downloads\lenguaje c\tp8\ejer 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TDApersona.h"
+
+1666055356 c:\users\facun\downloads\lenguaje c\tp8\ejer 3\tdapersona.h
+
+1666107979 source:c:\users\usuario\downloads\lenguaje c\tp8\ejer 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TDApersona.h"
+
+1666107806 c:\users\usuario\downloads\lenguaje c\tp8\ejer 3\tdapersona.h
+
