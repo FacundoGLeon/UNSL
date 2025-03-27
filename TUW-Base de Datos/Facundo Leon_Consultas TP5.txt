@@ -1,0 +1,23 @@
+2. Obtener nombre y número de los alumnos que hayan regularizado alguna materia cuyo
+nombre sea Base de Datos.
+
+select NbreA, Alumnos.NroA
+from Alumnos, Materias, Regulares
+where Alumnos.NroA=Regulares.NroA and MCod=MCodReg and MNbre = 'Base de Datos';
+
+
+
+6. Obtener nombre y número de los alumnos que hayan rendido alguna materia con una nota de
+10 puntos.
+
+select NbreA, NroA
+from Alumnos, Examenes
+where NroA=NroARindio and Nota=10;
+
+
+
+9. Obtener la cantidad de exámenes tomados de la materia Programación I.
+
+select count(Examenes.MCod)
+from Materias,Examenes
+where Materias.MCod=Examenes.MCod and MNbre='Programación I';

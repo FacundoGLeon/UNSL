@@ -1,0 +1,79 @@
+CREATE TABLE Personal(
+	Pcod INTEGER NOT NULL,
+	Pdni INTEGER NOT NULL,
+	Pnbre TEXT NOT NULL,
+	Pdir TEXT NOT NULL,
+	PanioIng INTEGER NOT NULL,
+	Pes TEXT NOT NULL,
+	PRIMARY KEY(Pdni)
+	UNIQUE(Pcod)
+);
+
+CREATE TABLE Limpieza(
+	PLcod INTEGER NOT NULL,
+	PLtel INTEGER NOT NULL,
+	PRIMARY KEY(PLcod)
+	FOREIGN KEY(PLcod) REFERENCES Personal(Pcod)
+);
+
+CREATE TABLE Administracion(
+	PAcod INTEGER NOT NULL,
+	PAmail TEXT NOT NULL,
+	EMcod TEXT NOT NULL,
+	PRIMARY KEY(PAcod)
+	FOREIGN KEY(PAcod) REFERENCES Personal(Pcod)
+	FOREIGN KEY(EMcod) REFERENCES Estudios_Max(EMcod)
+);
+CREATE TABLE Estudios_Max(
+	EMcod TEXT NOT NULL,
+	EstMax TEXT NOT NULL,
+	PRIMARY KEY(EMcod)
+);
+
+CREATE TABLE Habitaciones(
+	Hcod INTEGER NOT NULL,
+	Hnro INTEGER NOT NULL,
+	Hpiso INTEGER NOT NULL,
+	Hcap INTEGER NOT NULL,
+	HvDia REAL NOT NULL,
+	Tcod TEXT NOT NULL,
+	PRIMARY KEY(Hcod)
+	UNIQUE(Hnro, Hpiso)
+	FOREIGN KEY(Tcod) REFERENCES Tipo_Habitacion(Tcod)
+);
+CREATE TABLE Tipo_Habitacion(
+	Tcod TEXT NOT NULL,
+	Tipo TEXT NOT NULL,
+	PRIMARY KEY(Tcod)
+);
+
+CREATE TABLE Cocheras(
+	CnroId INTEGER NOT NULL,
+	CtipoV TEXT NOT NULL,
+	CvDia REAL NOT NULL,
+	PRIMARY KEY(CnroId)
+);
+
+CREATE TABLE Reservas(
+	Rnum INTEGER NOT NULL,
+	Rfecha TEXT NOT NULL,
+	Rdesde TEXT NOT NULL,
+	Rhasta TEXT NOT NULL,
+	RdniCliente INTEGER NOT NULL,
+	Rtotal REAL NOT NULL,
+	HcodAsigna INTEGER NOT NULL,
+	CnroIdCorresp INTEGER,
+	PAcodTomo INTEGER NOT NULL,
+	PRIMARY KEY(Rnum)
+	FOREIGN KEY(HcodAsigna) REFERENCES Habitaciones(Hcod)
+	FOREIGN KEY(CnroIdCorresp) REFERENCES Cocheras(CnroId)
+	FOREIGN KEY(PAcodTomo) REFERENCES Administracion(PAcod)
+);
+
+CREATE TABLE Encargado(
+	PLcodEncargado INTEGER NOT NULL,
+	HcodEncargado INTEGER NOT NULL,
+	PRIMARY KEY(PLcodEncargado, HcodEncargado)
+	FOREIGN KEY(PLcodEncargado) REFERENCES Limpieza(PLcod)
+	FOREIGN KEY(HcodEncargado) REFERENCES Habitaciones(Hcod)
+);
