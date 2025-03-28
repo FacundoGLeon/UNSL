@@ -1,0 +1,69 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>EJERCICIO 13</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <script src='main.js'></script>
+    </head>
+    <body bgcolor="grey">
+        <header>
+            <u><h1><i>Agencia de Empleos</i></h1></u>
+        </header>
+        <form action="" method="post" enctype="multipart/form-data">
+            <h3>Ingrese sus Datos:</h3>
+            
+            <label for="nombre">Nombre/s:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <br><label for="apellido">Apellido/s:</label><br>
+            <input type="text" id="apellido" name="apellido" required><br>
+            
+            <br><label for="dispHoraria">Disponibilidad Horaria:</label><br>
+            <input type="checkbox" id="dispHoraria" name="dispHoraria" value="M">Mañana <br>
+            <input type="checkbox" id="dispHoraria" name="dispHoraria" value="T">Tarde <br>
+            <input type="checkbox" id="dispHoraria" name="dispHoraria" value="N">Noche <br>
+            
+            <br><label for="sueldo">Sueldo Pretendido:</label><br>
+            <input type="number" id="sueldo" name="sueldo" min="1" placeholder="$..." required><br>
+            
+            <br><label for="puesto">Puesto/s de Preferencia</label><br>
+            <input type="text" id="puesto" name="puesto"> <br>
+            
+            <br><label for="ECivil">Estado Civil:</label><br>
+            <select name="ECivil" id="ECivil" required>
+                <option value="" disabled selected>-- Seleccione una opción --</option>
+                <option value="S">Soltero/a</option>
+                <option value="C">Casado/a</option>
+                <option value="D">Divorciado/a</option>
+                <option value="V">Viudo/a</option>
+                <option value="UL">Union Libre/Concubinato</option>
+            </select><br>
+            
+            <br><label>Cantidad de Hijos:</label><br>
+            <input type="number" id="men12" name="men12" min="0" placeholder="Menores de 12 años" required><br>
+            <input type="number" id="Ent_12-21" name="Ent_12-21" min="0" placeholder="Entre 12 y 21 años" required><br>
+            <input type="number" id="may21" name="may21" min="0" placeholder="Mayores de 21 años" required><br>
+            
+            <br><label for="ident">¿Posee Pasaporte?</label><br>
+            <input type="radio" id="ident" name="ident" value="S" required>Si
+            <input type="radio" id="ident" name="ident" value="N" required>No <br>
+            
+            <br><label for="documento">Número de Documento:</label><br>
+            <input type="number" id="documento" name="documento" required><br>
+
+            <br><label for="CV">Subir CV(PDF):</label><br>
+            <input type="file" required><br>
+            
+            <br>
+            <input type="reset" value="Restablecer">
+            <input type="submit" value="Enviar"><br>
+        </form>
+
+
+        
+        
+    </body>
+    </html>
