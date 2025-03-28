@@ -1,0 +1,52 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>EJERCICIO 12</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <script src='main.js'></script>
+    </head>
+    <body bgcolor="grey">
+        <header>
+            <u><i><h1><font color="yellow">Sol</font> y <font color="skyblue">Luna</font></h1></i></u>
+        </header>
+        <h3>Formulario de Preinscripcion</h3>
+
+        <form>
+            <label for="telefono">Telefono:</label><br>
+            <input type="tel" id="telefono" name="telefono" required pattern="\+?[0-9\s\-]+" title="Ingrese un número válido"><br>
+            <label for="mail">E-mail:</label><br>
+            <input type="email" id="mail" name="mail" title="Ingrese un mail valido"><br>
+            <label for="nombre">Nombre/s:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="apellido">Apellido/s:</label><br>
+            <input type="text" id="apellido" name="apellido" required><br>
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label><br>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
+            <label for="curso">Curso:</label><br>
+            <select name="curso" id="curso">
+                <option value="1">1ro</option>
+                <option value="2">2ro</option>
+                <option value="3">3ro</option>
+                <option value="4">4ro</option>
+                <option value="5">5ro</option>
+                <option value="6">6ro</option>
+            </select><br>
+            <label for="turno">Turno:</label><br>
+            <select name="turno" id="turno">
+                <option value="M">Turno Mañana</option>
+                <option value="T">Turno Tarde</option>
+            </select><br>
+            <label for="escuelaOrigen">Escuela de Origen:</label><br>
+            <input type="text" id="escuelaOrigen" name="escuelaOrigen" required><br>
+            <label for="comentarios">Comentarios, consultas o sugerencias:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escribe aquí tu comentario..." required></textarea>
+
+
+                
+        
+        </form>
+    </body>
+    </html>
