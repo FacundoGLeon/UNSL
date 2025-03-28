@@ -1,0 +1,46 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>EJERCICIO 11</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <script src='main.js'></script>
+    </head>
+    <body bgcolor="skyblue">
+        <header>
+        <u><i><h1>Bagó y Elea Phoenix</h1></i></u>
+
+        </header>
+        <main>
+            <h3>PEDIDOS</h3>
+            <form>
+                <label for="numCliente">Numero del Cliente:</label><br>
+                <input type="number" id="numCliente" name="numCliente" min="1" required><br>
+                <label for="apellCliente">Apellido/s:</label><br>
+                <input type="text" id="apellCliente" name="apellCliente" required><br>
+                <label for="NombCliente">Nombre/s:</label><br>
+                <input type="text" id="nombCliente" name="nombCliente" required><br>
+                <label for="codProducto">Codigo del Producto:</label><br>
+                <input type="number" id="codProducto" name="codProducto" min="100" required><br>
+                <label for="cantProducto">Cantidad:</label><br>
+                <input type="number" id="cantProducto" name="cantProducto" min="1" max="100" required><br>
+                <label for="formaPago">Forma de Pago:</label><br>
+                <select id="formaPago" name="formaPago" required>
+                    <option value="TCred">Targeta de Credito</option>
+                    <option value="TDeb">Targeta de Debito</option>
+                    <option value="Trans">Transferencia</option>
+                    <option value="Efec">Efectivo</option>
+                </select><br>                    <input type="reset" value="Restablecer">
+                <input type="submit" value="Enviar"><br>
+            </form>
+        </main>
+        <aside>
+            <h3>Buscador</h3>
+            <iframe src="https://www.bing.com/search?q=%s" width="600" height="400"></iframe>
+
+        </aside>
+        
+    </body>
+    </html>

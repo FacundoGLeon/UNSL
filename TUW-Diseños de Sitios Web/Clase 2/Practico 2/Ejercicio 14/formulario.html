@@ -1,0 +1,45 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>FORMULARIO</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <script src='main.js'></script>
+    </head>
+    <body background="img/fondoP.png">
+        <header>
+            <p>
+                <a href="index.html"><img src="img/logo.png" alt="live" width="124" height="124"></a>
+            </p>
+        </header>
+        
+        <main>
+            <font color="white"><U><h2>Enterate de las Novedades</h2></U>
+            <h3>Ingresa tus Datos de Contacto:</h3></font>
+            <form>
+                <font color="white"><label for="nombre">Nombre/s:</label></font><br>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <font color="white"><label for="apellido">Apellido/s:</label></font><br>
+                <input type="text" id="apellido" name="apellido" required><br>
+                <font color="white"><label for="domicilio">Domicilio:</label></font><br>
+                <input type="text" id="domicilio" name="domicilio" required><br>
+                <font color="white"><label for="mail">E-mail:</label></font><br>
+                <input type="email" id="mail" name="mail" required><br>
+                <font color="white"><label for="telefono">Telefono:</label></font><br>
+                <input type="tel" pattern="\+?[0-9\s\-]+" placeholder="11 1234 5678" id="telefono" name="telefono" title="Ingrese un número válido" required><br>
+                <font color="white"><label for="pais">Pais:</label></font><br>
+                <select name="pais" id="pais" required>
+                    <option value="Ar">Argentina</option>
+                    <option value="Br">Brasil</option>
+                    <option value="Par">Paraguay</option>
+                    <option value="Ur">Uruguay</option>
+                    <option value="Bl">Bolivia</option>
+                </select><br><br>
+                <input type="reset" value="Restablecer">
+                <input type="submit" value="Enviar"><br>
+            </form>
+        </main>
+    </body>
+    </html>
