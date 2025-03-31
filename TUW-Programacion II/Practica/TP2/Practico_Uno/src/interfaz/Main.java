@@ -8,8 +8,13 @@ import java.util.Scanner;
 import practico2.Cliente;
 import practico2.Compra;
 import practico2.CuentaCorriente;
+import practico2.Gerbil;
+import practico2.Hamster;
 import practico2.Kiosco;
 import practico2.Persona;
+import practico2.Pixel;
+import practico2.Raton;
+import practico2.Roedor;
 
 /**
  *
@@ -28,10 +33,10 @@ public class Main {
             System.out.println("\nMENU"
                                 +"\n<1> Ejercicio 1."
                                 +"\n<2> Ejercicio 2."
-                                +"\n<3> Ejercicio 3 4 5 y 6."
-                                +"\n<7> Ejercicio 4."
-                                +"\n<8> Ejercicio 5."
-                                +"\n<9> Ejercicio 6."
+                                +"\n<3> Ejercicio 3, 4, 5, y 6."
+                                +"\n<7> Ejercicio 7."
+                                +"\n<8> Ejercicio 8."
+                                +"\n<9> Ejercicio 9."
                                 +"\n<0> Salir.");
             System.out.print("Ingrese opcion: ");
             opcion = teclado.nextInt();
@@ -45,9 +50,9 @@ public class Main {
                     //inicializar compra
                     //agregar productos
                     break;
-                case 4: break;
-                case 5: break;
-                case 6: break;
+                case 7: ejercicio7(); break;
+                case 8: ejercicio8(); break;
+                case 9: break;
                 default: System.out.println("Ingrese una opcion valida.");break;
             }
         }
@@ -147,7 +152,7 @@ public class Main {
         while(opc!=2){
             System.out.println("\nDesea realizar una accion: "
                                 +"\n<0> Ver Monto Total de Todas las Compras."
-                                +"\n<1> realizar compra."
+                                +"\n<1> Realizar compra."
                                 +"\n<2> No"
                                 +"\n<3> Mostrar Historial de Compras.");
             System.out.print("--> ");
@@ -201,5 +206,133 @@ public class Main {
                 
             }
         }
+    }
+    
+    public static void ejercicio7(){
+        Scanner teclado = new Scanner(System.in);
+        int opcion=1;
+        Pixel p = null;
+        int x,y,color,valor;
+        while(opcion!=0){
+            System.out.println("Indique la accion:"
+                                +"\n<1> Crear Instancia Pixel."
+                                +"\n<2> Trasladar Pixel."
+                                +"\n<3> Cambiar de Color."
+                                +"\n<4> Mostrar Pixel."
+                                +"\n<0> Salir.");
+            opcion = teclado.nextInt();
+            switch(opcion){
+                case 1: 
+                    if(p!=null){
+                        System.out.println("Ya se ha creado la Intancia.");
+                        break;
+                    }
+                    System.out.println("Ingrese valor de coordenada x:");
+                    x = teclado.nextInt();
+                    System.out.println("Ingrese valor de coordenada y:");
+                    y = teclado.nextInt();
+                    System.out.println("Ingrese color del Pixel:");
+                    do{
+                        System.out.println("[0-255]");
+                        color = teclado.nextInt();
+                    }while(color<0 || color>255);
+                    p = new Pixel(x,y,color);
+                    break;
+                case 2:
+                    int opc=1;
+                    if(p==null){
+                        System.out.println("Primero debe crear la Instancia");
+                        break;
+                    }
+                    System.out.println("Indique hacia donde quiero trasladar el pixel:");
+                    System.out.println("<1> Hacia la IZQUIERDA");
+                    System.out.println("<2> Hacia la DERECHA");
+                    System.out.println("<3> Hacia ARRIBA");
+                    System.out.println("<4> Hacia ABAJO");
+                    System.out.println("<5> No Trasladar");
+                    opc = teclado.nextInt();
+                    while(opc < 0 || opc > 5){
+                        System.out.println("Ingrese un valor valido:");
+                        opc = teclado.nextInt();
+                    }
+                    if(opc!=5){
+                        System.out.println("Ingrese la cantidad de posiciones que desea mover el pixel:");
+                        valor = teclado.nextInt();
+                        p.trasladar(opc, valor);
+                    }
+                    break;
+                case 3: 
+                    if(p==null){
+                        System.out.println("Primero debe crear la Instancia");
+                        break;
+                    }
+                    System.out.println("Ingrese el valor del color al que desea cambiar");
+                    do{
+                        System.out.println("[0-255]");
+                        color = teclado.nextInt();
+                    }while(color<0 || color>255);
+                    p.setColor(color);
+                    break;
+                case 4: 
+                    if(p==null){
+                        System.out.println("Primero debe crear la Instancia");
+                        break;
+                    }
+                    System.out.println("Datos de Pixel:");
+                    System.out.println(p.toString());
+                    break;
+                case 0: 
+                    System.out.println("...");
+                    break;
+                default: System.out.println("Ingrese un valor valido.");break;
+            }
+            
+        }
+        
+    }
+    
+    public static void ejercicio8(){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese la cantidad de roedores a crear: ");
+        int cantidad = scanner.nextInt();
+        scanner.nextLine(); // Consumir el salto de línea
+
+        Roedor[] roedores = new Roedor[cantidad];
+
+        for (int i = 0; i < cantidad; i++) {
+            System.out.println("\nSeleccione el tipo de roedor:");
+            System.out.println("1. Ratón");
+            System.out.println("2. Gerbil");
+            System.out.println("3. Hamster");
+            int opcion = scanner.nextInt();
+            scanner.nextLine(); // Consumir el salto de línea
+
+            System.out.print("Ingrese el nombre del roedor: ");
+            String nombre = scanner.nextLine();
+            System.out.print("Ingrese la edad del roedor (en meses): ");
+            int edad = scanner.nextInt();
+            System.out.print("Ingrese el peso del roedor (en gramos): ");
+            double peso = scanner.nextDouble();
+            scanner.nextLine(); // Consumir el salto de línea
+
+            switch (opcion) {
+                case 1: roedores[i] = new Raton(nombre, edad, peso); break;
+                case 2: roedores[i] = new Gerbil(nombre, edad, peso); break;
+                case 3: roedores[i] = new Hamster(nombre, edad, peso); break;
+                default:
+                    System.out.println("Opción inválida. Se asignará un Ratón por defecto.");
+                    roedores[i] = new Raton(nombre, edad, peso);
+            }
+        }
+        System.out.println("\nMostrando el comportamiento de los roedores:");
+        for (Roedor roedor : roedores) {
+            roedor.mostrarInfo();
+            roedor.comer();
+            roedor.moverse();
+            System.out.println("----------------");
+        }
+
+        
     }
 }
