@@ -1,0 +1,21 @@
+h1{color: blue;}
+h2{color: gray;}
+#p1{font-family: Arial Black;}
+#p2{font-family: Arial Black;}
+img{display: block; margin: 0 auto;}
+table{margin: 0 auto;}
+aside {
+    width: 25%;
+    float: right; /* o right si quieres que esté a la derecha */
+    background-color: #c02424;
+    padding: 10px;
+    
+  }
+  main {
+    margin-right: 26%; /* dejar espacio para el aside */
+    padding: 10px;
+  }
+  iframe{
+    width: 100%;  /* Hace que el iframe se ajuste al ancho del contenedor */
+    height: 100%;
+  }
