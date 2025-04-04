@@ -1,0 +1,7 @@
+.celeste_centrada {font-family: verdana; color: skyblue;}
+.celeste_centrada h1,h2,h3,h4,h5,h6{text-align: center;}
+.celeste_centrada p{ font-size: 12;}
+.celeste_centrada img{display: block; margin: 0 auto;}
+.celeste_centrada table{ margin: 0 auto; background-color: blue;}
+.celeste_centrada a{color: brown; text-decoration: none;}
+.celeste_centrada a:hover{color: chartreuse;}
